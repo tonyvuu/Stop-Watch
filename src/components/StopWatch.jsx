@@ -47,14 +47,14 @@ const StopWatch = () => {
   return (
     <div>
       <div>
-        <h1>STOP</h1>
+        <h1 style={{color: 'white'}}>STOP</h1>
         <h1 style={{ color: 'red' }}>WATCH</h1>
       </div>
       <h1 className='timer'>{convertToTime(lapse)}</h1>
-      <button className='stop' style={{ fontWeight: 'bolder' }} onClick={handleRunClick}>
+      <button className='stop' style={{ fontWeight: 'bolder'}} onClick={handleRunClick}>
         {running ? 'Stop' : 'Start'}
       </button>
-      <button onClick={handleClearClick}>Clear</button>
+      <button class='clear'onClick={handleClearClick}>Clear</button>
     </div>
   );
 };

@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+.timer{
+  color: white;
+}
 
 body{
   background-color: black;
@@ -50,4 +53,12 @@ body{
 }
 .stop{
   margin-right: 25px;
+  color: white;
+  background-color: black;
+
+}
+
+.clear{
+  color: white;
+  background-color: black;
 }
